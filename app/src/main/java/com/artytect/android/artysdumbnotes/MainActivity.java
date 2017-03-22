@@ -1,5 +1,6 @@
 package com.artytect.android.artysdumbnotes;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        // Testing code...
+        DBOpenHelper helper = new DBOpenHelper(this);
+        SQLiteDatabase database = helper.getWritableDatabase();
     }
 
     @Override
