@@ -7,4 +7,7 @@
     <string name="note">Note</string>
     <string name="dummy_text">Dummy Text</string>
     <string name="title_activity_editor">EditorActivity</string>
+    <string name="enter_note_here">Enter note here</string>
+    <string name="new_note">New note</string>
+    <string name="action_delete">Delete</string>
 </resources>
