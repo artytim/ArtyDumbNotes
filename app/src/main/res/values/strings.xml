@@ -4,4 +4,6 @@
     <string name="delete_all_notes">Delete all notes</string>
     <string name="are_you_sure">Are you sure?</string>
     <string name="all_deleted">All notes deleted</string>
+    <string name="note">Note</string>
+    <string name="dummy_text">Dummy Text</string>
 </resources>
